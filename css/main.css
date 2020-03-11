@@ -1183,7 +1183,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #7c0854;
+  background: #4491d9;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2435,7 +2435,6 @@ ul.breadcrumb li + li:last-child {
   padding: initial;
 }
 .post-block {
-  background: var(--content-bg-color);
   border-radius: initial;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
   padding: 40px;
@@ -2592,4 +2591,9 @@ body #footer > div > div {
 .site-author-name {
   font-family: 'Comic Sans MS', sans-serif;
   font-size: 1.5em;
+}
+.footer {
+  color: #fff;
+  font-size: 0.875em;
+  padding: 20px 0;
 }
