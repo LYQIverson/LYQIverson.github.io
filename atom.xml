@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>不能说的秘密</title>
+  <icon>https://lyqiverson.github.io/icon.png</icon>
+  <subtitle>记录生活中的点点滴滴</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://lyqiverson.github.io/"/>
+  <updated>2020-03-12T05:39:09.956Z</updated>
+  <id>https://lyqiverson.github.io/</id>
+  
+  <author>
+    <name>liu yuanquan</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>nodejs的安装</title>
+    <link href="https://lyqiverson.github.io/2020/03/11/nodejs%E7%9A%84%E5%AE%89%E8%A3%85/"/>
+    <id>https://lyqiverson.github.io/2020/03/11/nodejs%E7%9A%84%E5%AE%89%E8%A3%85/</id>
+    <published>2020-03-11T01:31:08.000Z</published>
+    <updated>2020-03-12T05:39:09.956Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;本文向大家介绍在-Windows-和-Linux-上安装-Node-js-的方法。&quot;&gt;&lt;a href=&quot;#本文向大家介绍在-Windows-和-Linux-上安装-Node-js-的方法。&quot; class=&quot;headerlink&quot; title=&quot;本文向大家介绍在 Windows 和 Linux 上安装 Node.js 的方法。&quot;&gt;&lt;/a&gt;本文向大家介绍在 Windows 和 Linux 上安装 Node.js 的方法。&lt;/h3&gt;&lt;h5 id=&quot;Node-js-安装包及源码下载地址为：https-nodejs-org-en-download&quot;&gt;&lt;a href=&quot;#Node-js-安装包及源码下载地址为：https-nodejs-org-en-download&quot; class=&quot;headerlink&quot; title=&quot;Node.js 安装包及源码下载地址为：https://nodejs.org/en/download&quot;&gt;&lt;/a&gt;Node.js 安装包及源码下载地址为：&lt;a href=&quot;https://nodejs.org/en/download&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://nodejs.org/en/download&lt;/a&gt;&lt;/h5&gt;
+    
+    </summary>
+    
+    
+      <category term="node" scheme="https://lyqiverson.github.io/categories/node/"/>
+    
+    
+      <category term="node" scheme="https://lyqiverson.github.io/tags/node/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的第一篇文章</title>
+    <link href="https://lyqiverson.github.io/2020/03/10/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>https://lyqiverson.github.io/2020/03/10/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2020-03-10T01:44:42.000Z</published>
+    <updated>2020-03-12T06:17:22.544Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;第一章&quot;&gt;&lt;a href=&quot;#第一章&quot; class=&quot;headerlink&quot; title=&quot;第一章&quot;&gt;&lt;/a&gt;第一章&lt;/h2&gt;&lt;p&gt;content&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="学习" scheme="https://lyqiverson.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+</feed>
