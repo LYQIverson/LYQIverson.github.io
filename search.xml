@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>linux安装redis</title>
+    <url>/2020/03/12/linux%E5%AE%89%E8%A3%85redis/</url>
+    <content><![CDATA[<h3 id="安装："><a href="#安装：" class="headerlink" title="安装："></a>安装：</h3><p>1.获取redis资源<br>    <code>wget http://download.redis.io/releases/redis-4.0.8.tar.gz</code></p>
+<a id="more"></a>
+<p>2.解压<br>　　<code>tar xzvf redis-4.0.8.tar.gz</code><br>3.安装</p>
+<p>　　<code>cd redis-4.0.8</code></p>
+<p>　　<code>make</code></p>
+<p>　　<code>cd src</code></p>
+<p>　　<code>make install PREFIX=/usr/local/redis</code><br>4.移动配置文件到安装目录下</p>
+<p>　　<code>cd ../</code></p>
+<p>　　<code>mkdir /usr/local/redis/etc</code></p>
+<p>　　<code>mv redis.conf /usr/local/redis/etc</code></p>
+<p> 5.配置redis为后台启动</p>
+<pre><code>`vi /usr/local/redis/etc/redis.conf` //命令启动编辑并将其中的daemonize no 改成daemonize yes</code></pre><p>6.将redis加入到开机启动</p>
+<p>　　vi /etc/rc.local //在里面添加内容：/usr/local/redis/bin/redis-server /usr/local/redis/etc/redis.conf (意思就是开机调用这段开启redis的命令)</p>
+<p>7.开启redis</p>
+<p>　　<code>/usr/local/redis/bin/redis-server /usr/local/redis/etc/redis.conf</code> </p>
+]]></content>
+      <tags>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>nodejs的安装</title>
     <url>/2020/03/11/nodejs%E7%9A%84%E5%AE%89%E8%A3%85/</url>
     <content><![CDATA[<h3 id="本文向大家介绍在-Windows-和-Linux-上安装-Node-js-的方法。"><a href="#本文向大家介绍在-Windows-和-Linux-上安装-Node-js-的方法。" class="headerlink" title="本文向大家介绍在 Windows 和 Linux 上安装 Node.js 的方法。"></a>本文向大家介绍在 Windows 和 Linux 上安装 Node.js 的方法。</h3><h5 id="Node-js-安装包及源码下载地址为：https-nodejs-org-en-download"><a href="#Node-js-安装包及源码下载地址为：https-nodejs-org-en-download" class="headerlink" title="Node.js 安装包及源码下载地址为：https://nodejs.org/en/download"></a>Node.js 安装包及源码下载地址为：<a href="https://nodejs.org/en/download" target="_blank" rel="noopener">https://nodejs.org/en/download</a></h5><a id="more"></a>

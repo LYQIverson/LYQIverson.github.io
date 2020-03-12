@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lyqiverson.github.io/"/>
-  <updated>2020-03-12T06:57:26.507Z</updated>
+  <updated>2020-03-12T08:10:24.084Z</updated>
   <id>https://lyqiverson.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>linux安装redis</title>
+    <link href="https://lyqiverson.github.io/2020/03/12/linux%E5%AE%89%E8%A3%85redis/"/>
+    <id>https://lyqiverson.github.io/2020/03/12/linux%E5%AE%89%E8%A3%85redis/</id>
+    <published>2020-03-12T07:45:03.000Z</published>
+    <updated>2020-03-12T08:10:24.084Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;安装：&quot;&gt;&lt;a href=&quot;#安装：&quot; class=&quot;headerlink&quot; title=&quot;安装：&quot;&gt;&lt;/a&gt;安装：&lt;/h3&gt;&lt;p&gt;1.获取redis资源&lt;br&gt;    &lt;code&gt;wget http://download.redis.io/releases/redis-4.0.8.tar.gz&lt;/code&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="linux" scheme="https://lyqiverson.github.io/tags/linux/"/>
+    
+  </entry>
   
   <entry>
     <title>nodejs的安装</title>
